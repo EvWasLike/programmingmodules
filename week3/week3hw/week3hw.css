@@ -1,0 +1,47 @@
+body {
+	background-color: #A1C5FF;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.albuminfo { 
+
+}
+
+.albumlink {
+	
+}
+
+.albumname {
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #106240;
+}
+
+.albumartist {
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #106240;
+}
+
+.standouttracks {
+	color: #0F26BF;
+}
+
+.tracks {
+	font-style: italic;
+	color: red;
+}
+
+a:link {
+	color: #106240;
+}
+
+a:visited {
+	color: #106240;
+}
+
+a:hover {
+	color: red;
+}

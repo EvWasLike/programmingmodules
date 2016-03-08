@@ -1,0 +1,46 @@
+/* css 
+Website: My Programming Site v.1
+Author: Everic White
+*/
+
+body {
+	background-color: #FFEB98;
+}
+
+h1 {
+	color: #D90B13;
+	font-family: Verdana, Optima, Arial, sans-serif;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+p {
+	color: #D90B13;
+	font-family: Cambria, Georgia, Didot, serif;
+	font-size: 24px;
+}
+
+p:first-letter {
+	font-size: 40px;
+}
+
+h1:hover {
+	color: green;
+}
+
+hr {
+	border-color: #FF730C; 
+}
+
+#content {
+	width: 600px;
+	border-width: 2px;
+	border-color: red;
+	padding: 10px;
+	border-style: dotted;
+	background-color: black;
+	margin: 0 auto;
+	border-radius: 50px;
+}
