@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 7 - Arrays, Objects and Loops</title>
+</head>
+<body>
+  <h1 id="headline">Storing Data in JavaScript</h1>
+  <ul id="list"></ul>
+
+  <script>
+  	/* var books = ["Private Eyes: They're Watching You",'Yung Humma and the Swag-Thief','Harry Potter and the Awkward Silence','Kilgore Trout Redux','Dylan, Dylan, Dylan, Dylan, Dylan','Big Pimpin, Spendin Cheese: A Jay-Z Biography'];
+  	console.log(books);
+  	console.log(books[2]);
+
+  	for (var i = 0; i < books.length; i++) {
+  		alert(books[i]);
+  	} */
+
+  	var book = {
+  		title: "Meditations",
+  		author: "Marcus Aurelius",
+  		genre: "Swag",
+  		pubYear: "2760",
+  		image: "http://ecx.images-amazon.com/images/I/512RN0519IL._SX308_BO1,204,203,200_.jpg",
+  		};
+	console.log(book.author);
+
+	var favoriteBooks = [
+	{
+		title: 'Black Boy',
+		author: 'Richard Wright',
+		genre: ['swag', ' racist people'],
+	},
+	{
+		title: "Man's Search for Meaning",
+		author: 'Viktor Frankl',
+		genre: ['reflexology',' not dying in a gas chamber', ' postmodern tomfoolery']
+	},
+	{
+		title: "Green Eggs & Ham",
+		author: "Dr. Seuss",
+		genre: ['particle physics',' phrenology',' dental hygeine']
+	},
+	];
+	console.log(favoriteBooks);
+
+	for (var i=0;  i < favoriteBooks.length; i++) {
+		console.log(favoriteBooks[i]);
+			var listItem = document.createElement('li');
+			var title = document.createTextNode(favoriteBooks[i].title);
+			listItem.appendChild(title);
+			document.getElementById('list').appendChild(listItem);
+	}
+
+  </script>
+</body>
+</html>
